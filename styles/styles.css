@@ -25,6 +25,7 @@ body {
   margin: 0 auto; */
   font-family: var(--primary-font);
   box-sizing: border-box;
+  background-color: #f2f4f9;
   /* height: 100vh; */
 }
 
@@ -238,8 +239,11 @@ section {
 /* EXTRA SECTION STARTS */
 
 .extra-section-container {
+  background-color: #fff;
   text-align: center;
   margin: 100px;
+  padding: 50px 50px 50px 40px;
+  border-radius: 20px;
 
   img {
     border-radius: 45px;
