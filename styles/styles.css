@@ -1,0 +1,65 @@
+/* FONTS INTER */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* FONTS RAILWAY */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* DESIGN STARTS HERE */
+
+:root {
+  --primary-Color: #4e47ff;
+  --secondary-Color: #ffffff;
+}
+
+body {
+  /* max-width: 1140px;
+  margin: 0 auto; */
+  font-family: "Raleway", sans-serif;
+  /* height: 100vh; */
+}
+
+header {
+    background-image: url(Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: var(--primary-Color);
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+nav .btn-logo {
+  border: none;
+  background-color: var(--primary-Color);
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--secondary-Color);
+}
+
+.banner h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+.btn-banner {
+  border: none;
+  background-color: var(--primary-Color);
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--secondary-Color);
+  display: block;
+  margin: 20px auto 0 auto;
+}
