@@ -21,11 +21,11 @@ body {
 }
 
 header {
-    background-image: url(Hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 15px;
+  background-image: url(Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
 }
 
 nav {
@@ -64,4 +64,43 @@ nav .btn-logo {
   margin: 20px auto 0 auto;
 }
 
-MAIN 
+/* MAIN SECTION STARTS */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 200px;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-texts h2 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.action-texts p {
+  font-size: 24px;
+}
+
+.action-texts button {
+  border: none;
+  background-color: var(--primary-Color);
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--secondary-Color);
+}
+
+.action-container img {
+   border-radius: 40px;
+}
+
+/* PRODUCTIVE USER SECTION STARTS */
